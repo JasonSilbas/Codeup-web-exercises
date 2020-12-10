@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:ahttps=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <ahttps:href   java.codeup.com/examples/javascript/dom-query-js.html></ahttps:></a>
+<html xmlns:ahttps="" xmlns="http://www.w3.org/1999/html"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <href  https java.codeup.com examples javascript dom-query-js.html></href>
     <title>DOM: Query and Modify</title>
 <script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script></head>
 <body>
@@ -46,20 +46,16 @@
 
 
         // TODO: Set text color on every other list item to grey
-        for  (var start =0; start < listItems.length; start ++) {
+        var start
+        for  (start = 0; start < listItems.length; start ++) {
             if( start % 2 !== 0 ) {
                 listItems[start].style.color = "grey";}
         }
-        var dbId = listItems[start].getAttribute("data-dbid");
-        if (dbId === "1"){
-            listItems[start].style.color = "blue"
-        }
-
-
-
 
         // TODO: Set text color of li with dbid = 1 to blue
-
+        var dbid1 = document.body.querySelector('[data-dbid = "1"]')
+        dbid1.style.color = 'blue'
+         subHeader.style.color = 'blue';
 
 
         // TODO: Uncomment the next line and get all elements with class name sub-paragraph
@@ -71,7 +67,7 @@
 var button1 = document.getElementById("btn1");
 var button2 =document.getElementById("click", () => {
 });{
-    subHeader.style.color'blue';
+
             }
 var button3
         for  (var start =0; start < listItems.length; start ++) {
