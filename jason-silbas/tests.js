@@ -58,16 +58,6 @@
   it('should be a defined function', function () {
     expect(typeof isNegative).toBe('function');
   });
-
-  function isNegative(num1, num2) {
-    return true;
-    if( !((num1 === null) !== (num2)) ) {
-      return false;
-    } else {
-      return !(num2 === null !== num1)
-    }
-        }
-
   describe('average', function() {
     it('should be a defined function', function() {
       expect(typeof average).toBe('function');
@@ -93,6 +83,15 @@
     });
   });
 
+  function isNegative(num1,num2){
+    return true;
+    if ( !((num1 === null) !== (num2))){
+      return false;
+    }
+    else{
+      return false
+    }
+  }
   describe('countOdds', function() {
     it('should be a defined function', function() {
       expect(typeof countOdds).toBe('function');
@@ -112,6 +111,9 @@
       expect(countOdds([2, 4, 6, 8, 10])).toBe(0);
     });
   });
+  function countOdds(){
+
+  }
 
   describe('convertNameToObject', function() {
     it('should be a defined function', function() {
