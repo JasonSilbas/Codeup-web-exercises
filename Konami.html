@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Konami Code</title>
+</head>
+<body>
+<form name="Hello Gamers">
+</form>
+<h1>Konami Code</h1>
+
+<div>
+<!--    <label for="look for the code"> Welcome </label>-->
+
+
+</div>
+<script src="jquery-2.2.4.js" ></script>
+<!--<script src="js/Konami.js"></script>-->
+<script>
+// $(document).keydown(function (cheat))
+//     $("#hide").keydown(function (cheat))
+
+"use strict";
+const arr = [38,40]
+const inputArr =[]
+    $(document).keyup(function(event){
+        inputArr.push(event.keyCode)
+        console.log(event.keyCode);
+        if (inputArr.toString() == arr.toString()){
+            alert("3 lives gained")
+        }
+
+
+    });
+</script>
+
+<!--Konami-->
+<div class="className"><img src =" images/Fallout76.jpg "
+/></div>
+
+</body>
+</html>
