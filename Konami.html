@@ -20,13 +20,13 @@
 //     $("#hide").keydown(function (cheat))
 
 "use strict";
-const arr = [38,40]
+const arr = [38,38,40,40,37,39,37,39,66,65,13]
 const inputArr =[]
     $(document).keyup(function(event){
         inputArr.push(event.keyCode)
         console.log(event.keyCode);
-        if (inputArr.toString() == arr.toString()){
-            alert("3 lives gained")
+        if (inputArr.toString() === arr.toString()){
+            alert("Welcome Wanderer")
         }
 
 
