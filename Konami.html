@@ -7,6 +7,18 @@
 <form name="Hello Gamers">
 </form>
 <h1>Konami Code</h1>
+<br>
+<p>
+    This website welcomes those who know the purpose of it
+</p>
+
+<p>
+    another line
+</p>
+<p>
+    another one
+</p>
+
 
 <div>
 <!--    <label for="look for the code"> Welcome </label>-->
@@ -15,6 +27,15 @@
 </div>
 <script src="jquery-2.2.4.js" ></script>
 <!--<script src="js/Konami.js"></script>-->
+<script>
+    $(document).ready(function(){
+        $("body").on({
+            mouseenter: function(){
+                $(this).css("background-color", "green");
+            },
+        });
+    });
+</script>
 <script>
 // $(document).keydown(function (cheat))
 //     $("#hide").keydown(function (cheat))
@@ -36,7 +57,7 @@ const inputArr =[]
 
 <!--Konami-->
 <div class="className"><img src =""
-/></div>
+ alt=""/></div>
 
 </body>
 </html>
