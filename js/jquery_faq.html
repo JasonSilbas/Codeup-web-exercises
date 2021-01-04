@@ -9,23 +9,23 @@
 <header>
     10 FAQ about national parks
 </header>
-<a>href="#" </a>
+
 <dl>
     <dt>Fact 1</dt>
     <dd>
-        Yosimiti
+        Yosemite
     </dd>
 
     <!-- Other terms and descriptions -->
 </dl><dl>
-    <dt>Fact 2</dt>
+    <dt>Tottegouche</dt>
     <dd>
         b
     </dd>
 
     <!-- Other terms and descriptions -->
 </dl><dl>
-    <dt>Fact 3</dt>
+    <dt>Ioa Valley</dt>
     <dd>
      c
     </dd>
@@ -78,16 +78,42 @@
     <dd>
      j
     </dd>
+    <h3>
+        National Parks
+        <ul>
+            <li>Yosemite</li>
+            <ul>you can fish</ul>
+            <ul>you can swim</ul>
+            <ul>you can hike</ul>
+            <br>
+            <li>Tottegouche</li>
+            <ul>you can fish</ul>
+            <ul>you can swim</ul>
+            <ul>you can hike</ul>
+            <br>
+            <li>Ioa Valley</li>
+            <ul>you can fish</ul>
+            <ul>you can swim</ul>
+            <ul>you can hike</ul>
+        </ul>
+        <button id="traversing">submit</button>
+
+    </h3>
+
+</dl>
 
     <!-- Other terms and descriptions -->
     <script src="jquery-2.2.4.js">
         $(document).ready(function ()){
             $("dd").addClass("invisible")
-            $("toggle").click(function ()){
-
+            $("toggle").click(function ())
+    $("#traversing").click(function ())
+            {
+                $("li").last().addClass("highlighted")
             }
         }
     </script>
-</dl>
+
+
 </body>
 </html>
