@@ -9,6 +9,9 @@
 <header>
     10 FAQ about national parks
 </header>
+<div id="newsletter" class="alert alert dismissible"><h1>would you like to sign up for our news letter</h1>
+    <div id="register"><h2>please register for the site</h2></div>
+</div>
 
 <dl>
     <dt>Fact 1</dt>
@@ -110,8 +113,11 @@
     $("#traversing").click(function ())
             {
                 $("li").last().addClass("highlighted")
-            }
-        }
+            })
+        })
+        $("#close-button").click(function(){
+            $(this).parent()
+        })
     </script>
 
 
